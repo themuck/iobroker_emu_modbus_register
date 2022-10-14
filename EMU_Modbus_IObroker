@@ -1,0 +1,51 @@
+_address	name	description	unit	type	len	factor	offset	formula	role	room	poll	wp	cw	isScale
+4201	Wirkenergie Bezug Total		Wh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4229	Wirkenergie Bezug Tarif 1		Wh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4245	Wirkenergie Bezug Tarif 2		Wh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4281	Wirkenergie Lieferung Total		Wh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4309	Wirkenergie Lieferung Tarif 1		Wh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4325	Wirkenergie Lieferung Tarif 2		Wh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4361	Blindenergie Induktiv Total		varh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4389	Blindenergie Induktiv Tarif 1		varh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4405	Blindenergie Induktiv Tarif 2		varh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4441	Blindenergie Kapazitiv Total		varh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4469	Blindenergie Kapazitiv Tarif 1		varh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4485	Blindenergie Kapazitiv Tarif 2		varh	uint64be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4521	Wirkleistung L1		W	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4523	Wirkleistung L2		W	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4525	Wirkleistung L3		W	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4527	Wirkleistung L123		W	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4529	Blindleistung L1		var	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4531	Blindleistung L2		var	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4533	Blindleistung L3		var	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4535	Blindleistung L123		var	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4537	Scheinleistung L1		VA	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4539	Scheinleistung L2		VA	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4541	Scheinleistung L3		VA	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4543	Scheinleistung L123		VA	int32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4567	Spannung L1­N		V	int16be		0.1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4568	Spannung L2­N		V	int16be		0.1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4569	Spannung L3­N		V	int16be		0.1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4570	Spannung L1­L2		V	int16be		0.1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4571	Spannung L2­L3		V	int16be		0.1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4572	Spannung L3­L1		V	int16be		0.1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4591	Strom L1		A	int32be		0.001	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4593	Strom L2		A	int32be		0.001	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4595	Strom L3		A	int32be		0.001	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4597	Strom L123		A	int32be		0.001	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4623	Leistungsfaktor L1		Cos	int16be		0.01	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4624	Leistungsfaktor L2		Cos	int16be		0.01	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4625	Leistungsfaktor L3		Cos	int16be		0.01	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4626	Frequenz		Hz	int16be		0.1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4630	Wirkenergie Bezug Total		kWh	uint32be		0.001	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4632	Wirkenergie Bezug Tarif 1		kWh	uint32be		0.001	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4634	Wirkenergie Bezug Tarif 2		kWh	uint32be		0.001	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4636	Wirkenergie Lieferung Total		kWh	uint32be		0.001	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4638	Wirkenergie Lieferung Tarif 1		kWh	uint32be		0.001	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4640	Wirkenergie Lieferung Tarif 2		kWh	uint32be		0.001	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4642	Blindenergie Induktiv Total		varh	uint32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4644	Blindenergie Induktiv Tarif 1		varh	uint32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4646	Blindenergie Induktiv Tarif 2		varh	uint32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4648	Blindenergie Kapazitiv Total		varh	uint32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4650	Blindenergie Kapazitiv Tarif 1		varh	uint32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
+4652	Blindenergie Kapazitiv Tarif 2		varh	uint32be		1	0		level		WAHR	FALSCH	FALSCH	FALSCH
